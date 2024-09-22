@@ -15,16 +15,16 @@ public class MyProject {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        String [] Cars = {"Lamborghini","GT500","Ford Ranger","Honda Civic","Ferrari"};  
+        String [] Motors = {"AEROX 155","Sniper 150","Ducatti 1000cc","Honda Click","XRM 125"};  
         // Array 'Cars' is initialized with 5 car names
         
-        System.out.println("My favorite cars are: ");  
+        System.out.println("Some list of fascinating motors: ");  
         // Prints an introductory message
         
         // Loop through each element in the 'Cars' array
-        for (int i = 0; i < Cars.length; i++){  
+        for (int i = 0; i < Motors.length; i++){  
             // Prints each car name from the array
-            System.out.println(Cars[i]);
+            System.out.println(Motors[i]);
         }
     }
     
